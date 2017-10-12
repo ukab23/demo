@@ -1,2 +1,22 @@
+$navbar-default-bg: #f05c79;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.center {
+	text-align: center;
+}
+
+.jumbotron {
+	background-image: asset-url('Sagar_and_Swati.jpg');
+	background-size: cover;
+	height: 550px;
+}
+
+.jumbotron {
+	color: #000;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
