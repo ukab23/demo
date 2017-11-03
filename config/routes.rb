@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get 'about', to: 'welcome#about'
   
   resources :articles
+  get 'their_story', to: 'welcome#their_story'
+  get 'location', to: 'welcome#location'
 end
