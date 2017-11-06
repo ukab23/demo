@@ -1,4 +1,4 @@
-$navbar-default-bg: #f05c79;
+$navbar-default-bg: #f48aa0;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -26,4 +26,15 @@ footer {
 	padding-top: 5px;
 	border-top: 1px solid #eaeaea;
 	
+}
+
+a.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
