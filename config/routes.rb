@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   resources :articles
   get 'their_story', to: 'welcome#their_story'
   get 'location', to: 'welcome#location'
+  get 'gallary', to: 'welcome#gallary'
 end

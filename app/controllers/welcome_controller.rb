@@ -11,4 +11,8 @@ class WelcomeController < ApplicationController
 	def location
 	
 	end
+	
+	def gallary
+	
+	end
 end
