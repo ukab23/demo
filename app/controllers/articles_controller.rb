@@ -33,9 +33,9 @@ class ArticlesController < ApplicationController
 		if @article.update(article_params)
     		flash[:notice] = "Thank You for your wishes..!"
     		redirect_to article_path(@article)
-    	else
+    		else
     		render :edit	
-    	end	
+		end
 	end
 
 
@@ -43,10 +43,10 @@ class ArticlesController < ApplicationController
 	end
 
 	def destroy
+		@article = Article.find(params[:id])
 		@article.destroy
-		flash[:notice] = "Deleted Successfuly.."
-		redirect_to article_path(@article)
-
+		flash[:notice] = "Article was successfully deleted"
+		redirect_to articles_path
 	end	
 
 	private
