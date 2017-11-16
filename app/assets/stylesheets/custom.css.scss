@@ -1,4 +1,4 @@
-$navbar-default-bg: #f48aa0;
+$navbar-default-bg: #ee4466;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -7,10 +7,30 @@ $navbar-default-bg: #f48aa0;
 	text-align: center;
 }
 
+#logo{
+	color: white;
+}
+
+#logo2{
+	color: white;
+}
+
+#logo3{
+	color: white;
+}
+
+#logo4{
+	color: white;
+}
+
+.nav.navbar-nav li a {
+   color: white;
+ }
+
 .jumbotron {
-	background-image: asset-url('Sagar_and_Swati.jpg');
+	background-image: asset-url('wedding.jpg');
 	background-size: cover;
-	height: 550px;
+	height: 750px;
 }
 
 .jumbotron {
@@ -19,6 +39,11 @@ $navbar-default-bg: #f48aa0;
 	margin-bottom: 30px;
 	letter-spacing: -1px;
 	font-weight: bold;
+}
+
+.btn-xlarge{
+	font-size: 1.7em;
+	margin-top: 400px;
 }
 
 footer {
